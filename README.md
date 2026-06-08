@@ -15,4 +15,5 @@ The package includes minimalist ROS 2 code to demonstrate important ROS 2 concep
  
 ## Author
  
-Addison Sears-Collins
+Addison Sears-Collins - Modified by Francisco Ibarra
+
