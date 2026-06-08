@@ -1,21 +1,5 @@
 #! /usr/bin/env python3
  
-"""
-Description:
-    This ROS 2 node subscribes to "Hello World" messages on a topic.
-    It demonstrates basic ROS concepts such as node creation and subscribing.
--------
-Publishing Topics:
-    None
--------
-Subscription Topics:
-    The channel containing the "Hello World" messages
-    /py_example_topic - std_msgs/String
--------
-Author: Addison Sears-Collins
-Date: November 5, 2024
-"""
- 
 import rclpy  # Import the ROS 2 client library for Python
 from rclpy.node import Node  # Import the Node class for creating ROS 2 nodes
  

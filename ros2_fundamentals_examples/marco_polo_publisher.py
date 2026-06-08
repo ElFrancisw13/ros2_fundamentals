@@ -1,22 +1,5 @@
 #! /usr/bin/env python3
  
-"""
-Description:
-    This ROS 2 node periodically publishes "Hello World" messages on a topic.
-    It demonstrates basic ROS concepts such as node creation, publishing, and
-    timer usage.
--------
-Publishing Topics:
-    The channel containing the "Hello World" messages
-    /py_example_topic - std_msgs/String
--------
-Subscription Topics:
-    None
--------
-Author: Addison Sears-Collins
-Date: November 4, 2024
-"""
- 
 import rclpy  # Import the ROS 2 client library for Python
 from rclpy.node import Node  # Import the Node class for creating ROS 2 nodes
  
